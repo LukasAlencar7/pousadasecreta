@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+body{
+    background-color: #ffffff;
+    max-width: 1300px;
+
+}
+.titulo {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;  /* espaço do menu do titulo*/
+    align-items: center;
+    font-size: 20px;
+    background-color: rgb(255, 255, 255);   /* borda do titulo*/
+    font-family: 'Vollkorn SC', serif;
+    margin-left:  50px;
+}
+li { 
+    display: inline-block; /* Feito para separar a lista de lado */
+    margin:  20px;   /* para fazer um espaçamento entre os itens */
+    color: black;
+    font-family: 'Caveat', cursive;
+
+}
+
+li:hover{
+    color: rgb(212, 30, 30);
+    
+}
+
+
+footer {
+ background-color: #ffffff;
+}
+
+.socialmedia {
+    justify-content: center;
+    display: flex;
+    margin-top: 50px;
+}
+
+.footermenu {
+    justify-content: center;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 25px;
+    
+}
